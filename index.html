@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>1</title>
+    <style>
+        body {
+            color: white;
+        }
+
+        table,
+        tr,
+        td {
+            border-spacing: 0;
+            padding: 0;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 3px dashed #23a4fa;
+        }
+
+        .main-table {
+            margin: auto;
+        }
+
+        .table {
+            background-color: #171d52;
+        }
+
+        .darker-background {
+            background-color: #313131;
+        }
+
+        .middle-table td {
+            border: none;
+        }
+
+        .middle-table td:nth-child(2) {
+            border: 3px dashed #23a4fa;
+            border-top: none;
+            border-bottom: none;
+        }
+
+        .inner-table tr {
+            height: 100%;
+            border: 3px dashed #23a4fa;
+            border-right: none;
+            border-left: none;
+        }
+
+        .inner-table tr:first-child {
+            border-top: none;
+        }
+
+        .inner-table tr:last-child {
+            border-bottom: none;
+        }
+
+        .size-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .gearbox-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .first-column,
+        .third-column {
+            padding: 20px;
+        }
+
+        .main-list {
+            padding: 20px;
+        }
+
+        .title {
+            margin: 0;
+        }
+
+        .align-end {
+            vertical-align: text-bottom;
+        }
+
+        .text1 {
+            font-style: italic;
+            font-size: 20px;
+            color: #23a4fa;
+            text-decoration: underline;
+        }
+
+        .text2 {
+            font-weight: 800;
+            font-size: 15px;
+        }
+
+        .text3 {
+            color: #d7ffd7;
+            font-size: 16px;
+            font-stretch: expanded;
+        }
+
+        .text4 {
+            color: rgb(206, 229, 245);
+            font-stretch: condensed;
+        }
+
+        .text5 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: #d7ffd7;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table class="main-table" height="100%" width="100%">
+        <tbody class="table">
+            <tr>
+                <td class="darker-background align-end">
+                    <h1 class="title">Краткая информация</h1>
+                </td>
+                <td class="align-end">
+                    <h2 class="title">ТТХ</h2>
+                </td>
+                <td class="darker-background align-end">
+                    <h3 class="title">Мнение владельцев</h3>
+                </td>
+            </tr>
+            <tr>
+                <td class="first-column">
+                    <p class="text1">Passat CC, 2010 года выпуска.</p>
+                    <img height="200px" width="350px" src="1.jpg" alt="Passat CC" />
+                </td>
+                <td class="darker-background">
+                    <table>
+                        <tbody class="middle-table">
+                            <tr>
+                                <td>
+                                    <table>
+                                        <tbody class="inner-table">
+                                            <tr>
+                                                <td align="center">
+                                                    <p class="text2">Общие</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <ol class="main-list">
+                                                        <li>
+                                                            <p class="colored-text">Тип кузова - купе</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="colored-text">Количество дверей - 4</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="colored-text">Класс автомобиля - Е</p>
+                                                        </li>
+                                                        <li>
+                                                            <p class="colored-text">Страна производитель - Германия</p>
+                                                        </li>
+                                                    </ol>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table>
+                                        <tbody class="inner-table">
+                                            <tr>
+                                                <td><img height="300px" width="450px" src="2.jpg" alt="Passat CC" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <ol>
+                                                        <li>
+                                                            <h3>Размеры</h3>
+                                                            <ul class="size-list">
+                                                                <li>- Длина - 4800мм</li>
+                                                                <li>- Ширина - 2090мм</li>
+                                                                <li>- Высота - 1417мм</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>
+                                                            <h3>Варианты КПП</h3>
+                                                            <ol class="gearbox-list">
+                                                                <li>a) Механическая КПП</li>
+                                                                <li>b) Вариатор</li>
+                                                            </ol>
+                                                        </li>
+                                                    </ol>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                                <td>
+                                    <table>
+                                        <tbody class="inner-table">
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="text4">Передний привод</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right">
+                                                    <p class="text5">Дисковая тормозная система</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <dl>
+                                                        <dt>
+                                                            <h3>Подвеска</h3>
+                                                        </dt>
+                                                        <dd>Передняя - независимая McPherson</dd><br />
+                                                        <dd>Задняя - независимая многорычажная</dd>
+                                                    </dl>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+                <td class="third-column" align="center">
+                    <p class="text3">Отличный авто, внешний вид, динамика, управляемость, комфорт все на высшем уровне,
+                        стоит намного
+                        больше своих денег!</p>
+                    <p class="text3">Если вы не хотите частенько лазить под капот и проверять уровень масла, то лучше
+                        рассмотреть
+                        другой тип двигателя . Для себя считаю, что те вложенные 700 тысяч он оправдывает полностью.</p>
+                    <img height="200px" width="300px" src="3.jpg" alt="Passat CC" />
+                </td>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
