@@ -1,0 +1,117 @@
+body {
+    color: white;
+}
+
+table,
+tr,
+td {
+    padding: 0;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    border: 3px dashed #23a4fa;
+}
+
+.main-table {
+    margin: auto;
+}
+
+.table {
+    background-color: #171d52;
+}
+
+.darker-background {
+    background-color: #313131;
+}
+
+.middle-table td {
+    border: none;
+}
+
+.middle-table td:nth-child(2) {
+    border: 3px dashed #23a4fa;
+    border-top: none;
+    border-bottom: none;
+}
+
+.inner-table tr {
+    height: 100%;
+
+    border: 3px dashed #23a4fa;
+    border-right: none;
+    border-left: none;
+}
+
+.inner-table tr:first-child {
+    border-top: none;
+}
+
+.inner-table tr:last-child {
+    border-bottom: none;
+}
+
+.size-list {
+    padding: 0;
+
+    list-style: none;
+}
+
+.gearbox-list {
+    padding: 0;
+
+    list-style: none;
+}
+
+.first-column,
+.third-column {
+    padding: 20px;
+}
+
+.main-list {
+    margin: 20px;
+    padding: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+.align-end {
+    vertical-align: text-bottom;
+}
+
+.text1 {
+    text-decoration: underline;
+
+    color: #23a4fa;
+
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text2 {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.text3 {
+    color: #d7ffd7;
+
+    font-size: 16px;
+    font-stretch: expanded;
+}
+
+.text4 {
+    color: rgb(206, 229, 245);
+
+    font-stretch: condensed;
+}
+
+.text5 {
+    color: #d7ffd7;
+
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
